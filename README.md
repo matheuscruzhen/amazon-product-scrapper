@@ -34,7 +34,7 @@ npm start
 ```bash
 npm install -g http-server
 ```
-# or
+or
 
 ```bash
 npm install -g live-server
@@ -47,7 +47,7 @@ npm install -g live-server
 http-server
 ```
 
-# or
+or
 
 ```bash
 live-server
