@@ -1,0 +1,129 @@
+ body {
+     font-family: 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f3f3f3;
+ }
+
+
+ h1 {
+     text-align: center;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+     color: #0066c0;
+ }
+
+ input[type="text"] {
+     height: 20px;
+     flex: 1;
+     padding: 10px;
+     margin-right: 10px;
+     color: #0066c0;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     letter-spacing: .5px;
+     font-size: 14px;
+ }
+
+ input::placeholder {
+     color: #9ca3af
+ }
+
+ button {
+     background-color: #f0c14b;
+     color: #111;
+     padding: 0 30px;
+     text-transform: uppercase;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 14px;
+     font-weight: bold;
+     letter-spacing: .5px;
+     height: 40px;
+ }
+
+ button:hover {
+     background-color: #eab308;
+ }
+
+ .container {
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+ }
+
+ .search {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+     padding: 20px;
+     border-radius: 5px;
+     background-color: #fff;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ .loading-indicator {
+     text-align: center;
+     background-color: #60a5fa;
+     color: white;
+     border-radius: 5px;
+     font-size: 14px;
+     padding: 10px
+ }
+
+ .result-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     grid-gap: 20px;
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .list-item {
+     display: flex;
+     flex-direction: column;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+     padding: 15px;
+     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+ }
+
+ .product-image {
+     max-width: 100%;
+     /* Ensure the image does not overflow the parent */
+     height: 200px;
+     object-fit: contain;
+     /* Scale the image while preserving aspect ratio */
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+
+ .label {
+     font-weight: bold;
+     margin-bottom: 5px;
+     font-size: 10px;
+     color: dodgerblue;
+     text-transform: capitalize;
+     font-weight: 300;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+ }
+
+ .value {
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: 0;
+     font-size: 12px;
+     color: #333;
+     letter-spacing: .5px;
+ }
+
+ .error-message {
+     color: white;
+     background-color: salmon;
+     border-radius: 5px;
+     font-size: 14px;
+     padding: 10px
+ }
